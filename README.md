@@ -4,7 +4,7 @@ Application personnelle issue de l'archive v16. Interface et stockage local cons
 
 ## Démarrage
 
-Node.js 22.13 ou ultérieur. Exécuter `npm install`, puis `npm run dev`. Après la première installation réussie, conserver package-lock.json dans le dépôt et utiliser npm ci pour les installations suivantes.
+Node.js 22.13 ou ultérieur. Exécuter `npm ci`, puis `npm run dev`. Le fichier package-lock.json fixe les versions des dépendances.
 Validation : `npm run typecheck` et `npm run build`.
 Lancement de production : `npm start`.
 
